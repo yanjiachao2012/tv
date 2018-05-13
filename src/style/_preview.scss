@@ -1,0 +1,135 @@
+.preview-dialog{
+	height:100%;
+ 
+  .el-carousel{
+  	height:100%;
+  	&__container{
+  		height:100%;
+  	}
+  }
+  .el-dialog__header{
+    position:absolute;
+    z-index:100;
+    width:100%;
+    .el-icon-close{
+      font-size:40px;
+      color:#fff;
+      border-radius:50%;
+      background-color:rgba(0,0,0,.3);
+    }
+  }
+  .el-dialog__body{
+	  padding:0;
+		height:100%;
+	
+  }
+  .wrap-pic{
+    height:100%;
+    .pic{
+      width:100%;
+      height:100%;
+      object-fit:cover;
+    }
+    .folder{
+      @include absolute(50%,50%,20%,auto);
+      transform:translate(-50%,-50%);
+    }
+  }
+  .el-carousel__arrow {
+    i{
+      font-size:20px;
+    }
+  }
+}
+.wrap-preview{
+  position:relative;
+  padding:20px 0 40px;
+  .save-btn{
+    position:absolute;
+    right:10px;
+    top:30px;
+    padding:11px 25px;
+    border:none;
+    color:#fff;
+    font-size:18px;
+    border-radius:40px;
+    background-color:#FF896D;
+    box-shadow: 0 2px 20px #FFBF6D;
+    .el-icon-view{
+      font-size:20px;
+    }
+  }
+  .preview-big{
+    margin:0 auto;
+    padding:12px 12px 60px;
+    width:70%;
+    @include bgNo(1128d27ea717ea4d9ba3d0a3ac2aa192,center,top);
+    background-size:100% 100%;
+    .wrap-pic{
+      position:relative;
+      padding-top:56%;
+      overflow:hidden;
+    }
+    .pic{
+      position:absolute;
+      left:0;
+      top:0;
+      width:100%;
+      height:100%;
+    }
+    .folder{
+      @include absolute(50%,50%,50%,auto);
+      transform:translate(-50%,-50%);
+    }
+  }
+  .preview-small{
+    position:relative;
+    margin-top:40px;
+    width:100%;
+    overflow:hidden;
+    .turn-button{
+      top:0;
+      z-index:10;
+      margin-top:0;
+      width:84px;
+      height:100%;
+      background-color:#fff;
+      box-shadow: 0 2px 14px 0 rgba(0,0,0,0.08);
+      border-radius: 6px;
+      background-size:17px 55px;
+    }
+    .swiper-button-prev{
+      @include bgUrl(icon-left);
+    }
+    .swiper-button-next{
+      
+      @include bgUrl(icon-right);
+    }
+  }
+  .preview-row{
+    margin:0 110px;
+    overflow:hidden;
+    .plan-item{
+      margin-bottom:0;
+    }
+  }
+  
+}
+@media only screen and (max-width: 1366px){
+
+  .wrap-preview{
+    .preview-small{
+      margin-top:20px;
+    }
+    .preview-big{
+      width:65%;
+      padding-bottom:45px;
+    }
+    .save-btn{
+      font-size:16px;
+      .el-icon-view{
+        font-size:18px;
+      }
+    }
+  }
+}

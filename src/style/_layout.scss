@@ -1,0 +1,49 @@
+.plan-row,
+.schemes-row {
+  >[class*=row] {
+    &:after,
+    &:before {
+      content: '';
+      clear: both;
+      display: block;
+    }
+
+  }
+
+}
+
+.plan-row {
+  .row {
+    min-width: 180px;
+    width: 14.28%;
+  }
+
+}
+
+.schemes-row {
+  .row {
+    width: 20%;
+    min-width: 250px;
+  }
+
+}
+
+.library-row,
+.addScheme-row {
+  .row {
+    min-width: 180px;
+    width: 14.28%;
+  }
+
+}
+
+@media only screen and (max-width:1366px) {
+  .plan-row {
+    .row {
+      min-width:170px;
+      width: 16.666%;
+    }
+
+  }
+
+}

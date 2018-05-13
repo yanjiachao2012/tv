@@ -1,0 +1,47 @@
+.dialog-container{
+	.el-dialog{
+		margin-top:50%;
+		padding-bottom:50px;
+		border-radius:8px;
+	}
+	.content{
+		padding:20px 50px;
+	}
+      .el-input__inner{
+      	padding:16px 30px;
+      	height:auto;
+      	color:#333;
+      	font-size:20px;
+        border:1px solid #e0e0e0;
+        @include borderRadius(70px);
+      }
+      .sure-button{
+      	padding-top:13px;
+      	padding-bottom:13px;
+      	width:160px;
+      	font-size:18px;
+      	background-color:$mainColor;
+      	border-radius:25px;
+      	box-shadow:0 4px 30px rgba(109,162,255,.7);
+      }
+      .icon-close{
+      	position:absolute;
+      	bottom:-100px;
+      	left:50%;
+      	font-size:60px;
+      	color:#fff;
+      	@include bgIcon(icon-close,60px,60px);
+      	transform:translateX(-50%);
+      }
+      .remove-content{
+            text-align: center;
+            font-size:18px;
+      }
+      .cancel-button{
+            padding-top:13px;
+            padding-bottom:13px;
+            width:160px;
+            font-size:18px; 
+            border-radius:25px;
+      }
+}

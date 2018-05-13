@@ -1,0 +1,27 @@
+.plan-row,.schemes-row{
+  >[class*=row]{
+    &:after,&:before{
+      content:'';
+      clear:both;
+      display:block;
+    }
+  }
+}
+.plan-row{
+	.row{
+    width:14.28%;
+	}
+}
+.schemes-row{
+  .row{
+    width:20%;
+  }
+}
+
+@media only screen and (max-width: 1366px){
+    .plan-row{
+        .row{
+           width:16.666%;
+        }
+    }
+}

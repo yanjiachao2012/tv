@@ -1,0 +1,147 @@
+.operate-row{
+	padding:30px 0 35px;
+	.btn{
+		padding:0 22px;
+    height:42px;
+    line-height:42px;
+		border:1px solid #e0e0e0;
+		color:$font666;
+		font-size:18px;
+    vertical-align:middle;
+		@include borderRadius(40px);
+		.icon{
+			margin-right:5px;
+			font-size:20px;
+			vertical-align:-1px;
+		}
+		.el-icon--right{
+      color:#ccc;
+		}
+    .icon-back{
+      margin-right:8px;
+      @include bgIcon(icon-back-round,18px,18px);
+      vertical-align:-2px;
+      background-size:contain;
+    }
+	}
+  .el-dropdown{
+    font-size:18px;
+  }
+  .marginL{
+    margin-right:0;
+    margin-left:20px;
+  }
+  .marginR{
+    margin-right:20px;
+    margin-left:0;
+  }
+	.operate-right{
+		@include text(right);
+	}
+  .icon-remove{
+    margin-right:25px;
+    cursor:pointer;
+    vertical-align:middle;
+    @include bgIcon(icon-remove,29px,28px);
+    background-size:29px 28px;
+  }
+	.operate-orange-btn{
+    min-width: 130px;
+    font-size:18px;
+		color:#fff;
+		border:none;
+    @include borderRadius(40px);
+    background-color:#FF896D;
+    box-shadow:0 2px 20px #FFBF6D;
+     .icon-tv{
+      vertical-align:middle;
+      @include bgIcon(icon_TV,25px,25px);
+      background-size:contain;
+     }
+     .icon-save{
+      margin-right:3px;
+      vertical-align:-1px;
+      @include bgIcon(icon-save,15px,16px);
+      background-size:contain;
+     }
+     .icon{
+      margin-right:2px;
+     }
+	}
+  .tv-right-btn{
+    margin-left:0;
+  }
+
+}
+
+.all-checked-btn{
+  font-size:18px;
+  color:$font666;
+  border:1px solid #e0e0e0;
+  background-color:#fff;
+  border-radius:40px;
+  .el-checkbox__label{
+    font-size:18px;
+  }
+  .el-checkbox__inner{
+    width:18px;
+    height:18px;
+    border-color:#666;
+    border-radius:50%;
+    transition:none;
+    &:after{
+      border-color:#666;
+      left:6px;
+      top:3px;
+    }
+  }
+  .is-focus{
+    .el-checkbox__inner{
+      border-color:#666;
+    }
+  }
+  .is-checked{
+    .el-checkbox__inner{
+      background-color:#fff;
+      border-color:#666;
+    }
+    &+.el-checkbox__label{
+      color:#666;
+    }
+  }
+}
+
+@media only screen and (max-width: 1366px){
+	.operate-row{
+		padding:20px 0 25px;
+		.btn{
+      height:36px;
+      line-height:36px;
+			padding:0px 15px;
+			font-size:16px;
+			.icon{
+				margin-right:2px;
+				font-size:18px;
+			}
+		}
+    .operate-right-btn{
+      margin-left:20px;
+      min-width:80px;
+      font-size:16px;
+      
+    }
+    .tv-right-btn{
+      padding:0px 15px;
+    }
+    .operate-orange-btn{
+      min-width:110px;
+      font-size:16px;
+    }
+	}
+  .all-checked-btn{
+    padding:5px 15px;
+    .el-checkbox__label{
+      font-size:16px;
+    }
+  }
+}

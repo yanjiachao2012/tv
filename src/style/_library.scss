@@ -1,0 +1,62 @@
+
+.library-container{
+	.plan-item{
+		.activeUp{
+			border:none;
+			color:#fff;
+			background-color:#6DA2FF;
+		}
+	}
+	.rank-mark{
+		@include absolute;
+		z-index:10;
+		background-color: rgba(0,0,0,.6);
+		border-radius:6px;
+		.number{
+			position:absolute;
+			left:50%;
+			top:50%;
+			color:#fff;
+			font-size:48px;
+			transform:translate(-50%,-50%);
+		}
+	}
+	.library-title{
+		font-size:48px;
+		color:#333;
+		font-family: PingFangSC-Medium;
+	}
+	
+	.operate-row{
+		position:relative;
+		padding-top:60px;
+		.cancel-btn{
+      font-size:18px;
+      color:$font666;
+      cursor:pointer;
+	  }
+	}
+	.plan-item{
+		padding-bottom:80px;
+	}
+}
+.selectLibrary{
+	.rank-mark{
+		display:block;
+	}
+}
+@media only screen and (max-width: 1366px){
+  .library-container{
+  	.library-title{
+  		font-size:30px;
+  	}
+  	.operate-row{
+  		padding-top:30px;
+  		.save-right-btn{
+	  		top:15px;
+	  	}
+  	}
+  	
+  }
+
+}

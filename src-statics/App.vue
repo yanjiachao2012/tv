@@ -1,0 +1,21 @@
+<template>
+  <div style="position:relative;height:100%;">
+    <transition name="router-fade" mode="out-in">
+      <keep-alive>
+          <router-view v-if="$route.meta.keepAlive"></router-view>
+      </keep-alive>
+      </transition>
+      <transition name="router-fade" mode="out-in">
+      <router-view v-if="!$route.meta.keepAlive"></router-view>
+    </transition>
+  </div>
+
+</template>
+
+<script>
+
+</script>
+<style lang="scss" >
+  @import './style/common';
+  @import './style/style';
+</style>

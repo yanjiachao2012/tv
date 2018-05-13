@@ -1,0 +1,360 @@
+/* http://10.201.78.23:8100/tv/getPlan */
+{
+    "success": true,
+    "detail": [
+        {
+            "id": "e9c4a23d-0243-487f-9acb-3765dd3de489",
+            "name": "方案1",
+            "active": false,
+            "range": [
+                {
+                    "resources": [
+                        {
+                            "type": "app",
+                            "name": "新人堂",
+                            "path": "http://10.201.78.23:8080/person/web/",
+                            "duration": "61000"
+                        },
+                        {
+                            "type": "image",
+                            "name": "亮剑奖-冯方辉",
+                            "path": "/resources/library/亮剑奖-冯方辉.jpg",
+                            "duration": "10000"
+                        },
+                        {
+                            "type": "image",
+                            "name": "亮剑奖-孙焱平",
+                            "path": "/resources/library/亮剑奖-孙焱平.jpg",
+                            "duration": "10000"
+                        },
+                        {
+                            "type": "image",
+                            "name": "亮剑奖-邹宁",
+                            "path": "/resources/library/亮剑奖-邹宁.jpg",
+                            "duration": "10000"
+                        },
+                        {
+                            "type": "image",
+                            "name": "优秀员工奖-刘振东",
+                            "path": "/resources/library/优秀员工奖-刘振东.jpg",
+                            "duration": "10000"
+                        },
+                        {
+                            "type": "image",
+                            "name": "优秀员工奖-卢晓丽",
+                            "path": "/resources/library/优秀员工奖-卢晓丽.jpg",
+                            "duration": "10000"
+                        },
+                        {
+                            "type": "image",
+                            "name": "优秀员工奖-张丽",
+                            "path": "/resources/library/优秀员工奖-张丽.jpg",
+                            "duration": "10000"
+                        },
+                        {
+                            "type": "image",
+                            "name": "优秀员工奖-梁国朝",
+                            "path": "/resources/library/优秀员工奖-梁国朝.jpg",
+                            "duration": "10000"
+                        },
+                        {
+                            "type": "image",
+                            "name": "优秀员工奖-莫超雄",
+                            "path": "/resources/library/优秀员工奖-莫超雄.jpg",
+                            "duration": "10000"
+                        },
+                        {
+                            "type": "image",
+                            "name": "优秀员工奖-许锦泽",
+                            "path": "/resources/library/优秀员工奖-许锦泽.jpg",
+                            "duration": "10000"
+                        },
+                        {
+                            "type": "image",
+                            "name": "优秀员工奖-邓智",
+                            "path": "/resources/library/优秀员工奖-邓智.jpg",
+                            "duration": "10000"
+                        },
+                        {
+                            "type": "image",
+                            "name": "品高奖-广东移动客服小C项目",
+                            "path": "/resources/library/品高奖-广东移动客服小C项目.jpg",
+                            "duration": "10000"
+                        },
+                        {
+                            "type": "image",
+                            "name": "品高奖-深圳移动业务监控中心项目",
+                            "path": "/resources/library/品高奖-深圳移动业务监控中心项目.jpg",
+                            "duration": "10000"
+                        },
+                        {
+                            "type": "image",
+                            "name": "年度质量奖-芜湖出租车I专车app项目",
+                            "path": "/resources/library/年度质量奖-芜湖出租车I专车app项目.jpg",
+                            "duration": "10000"
+                        },
+                        {
+                            "type": "image",
+                            "name": "最佳销售奖-刘欣欣",
+                            "path": "/resources/library/最佳销售奖-刘欣欣.jpg",
+                            "duration": "10000"
+                        },
+                        {
+                            "type": "image",
+                            "name": "最佳需求奖-李剑君",
+                            "path": "/resources/library/最佳需求奖-李剑君.jpg",
+                            "duration": "10000"
+                        },
+                        {
+                            "type": "image",
+                            "name": "最佳顾问奖-冯伟聪",
+                            "path": "/resources/library/最佳顾问奖-冯伟聪.jpg",
+                            "duration": "10000"
+                        },
+                        {
+                            "type": "image",
+                            "name": "最佳顾问奖-毕建新",
+                            "path": "/resources/library/最佳顾问奖-毕建新.jpg",
+                            "duration": "10000"
+                        },
+                        {
+                            "type": "image",
+                            "name": "最具潜质奖-郑德涛",
+                            "path": "/resources/library/最具潜质奖-郑德涛.jpg",
+                            "duration": "10000"
+                        },
+                        {
+                            "type": "image",
+                            "name": "最具潜质奖-黄帆",
+                            "path": "/resources/library/最具潜质奖-黄帆.jpg",
+                            "duration": "10000"
+                        },
+                        {
+                            "type": "image",
+                            "name": "最具潜质奖-黎传锦",
+                            "path": "/resources/library/最具潜质奖-黎传锦.jpg",
+                            "duration": "10000"
+                        },
+                        {
+                            "type": "image",
+                            "name": "政企TED-1",
+                            "path": "/resources/library/政企TED-1.jpg",
+                            "duration": "10000"
+                        },
+                        {
+                            "type": "image",
+                            "name": "政企TED-2",
+                            "path": "/resources/library/政企TED-2.jpg",
+                            "duration": "10000"
+                        },
+                        {
+                            "type": "image",
+                            "name": "政企TED-3",
+                            "path": "/resources/library/政企TED-3.jpg",
+                            "duration": "10000"
+                        },
+                        {
+                            "type": "image",
+                            "name": "政企TED-4",
+                            "path": "/resources/library/政企TED-4.jpg",
+                            "duration": "10000"
+                        },
+                        {
+                            "type": "image",
+                            "name": "政企TED-5",
+                            "path": "/resources/library/政企TED-5.jpg",
+                            "duration": "10000"
+                        },
+                        {
+                            "type": "image",
+                            "name": "政企TED-6",
+                            "path": "/resources/library/政企TED-6.jpg",
+                            "duration": "10000"
+                        },
+                        {
+                            "type": "image",
+                            "name": "政企TED-7",
+                            "path": "/resources/library/政企TED-7.jpg",
+                            "duration": "10000"
+                        }
+                    ]
+                },
+                {
+                    "time": "11:30~13:30",
+                    "resources": [
+                        {
+                            "type": "app",
+                            "name": "新人堂",
+                            "path": "http://10.201.78.23:8080/person/web/",
+                            "duration": "10000"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ae8fce2e-b063-4364-a6e1-696f376b29b2",
+            "name": "new",
+            "active": false,
+            "range": [
+                {
+                    "resources": [
+                        {
+                            "type": "app",
+                            "name": "新人堂",
+                            "path": "http://10.201.78.23:8080/person/web/",
+                            "duration": "90000"
+                        },
+                        {
+                            "type": "image",
+                            "name": "专家计划-1",
+                            "path": "/resources/library/00_专家计划_专家计划-1.jpg",
+                            "duration": 10000
+                        },
+                        {
+                            "type": "image",
+                            "name": "专家计划-2",
+                            "path": "/resources/library/00_专家计划_专家计划-2.jpg",
+                            "duration": 10000
+                        },
+                        {
+                            "type": "image",
+                            "name": "专家计划-3",
+                            "path": "/resources/library/00_专家计划_专家计划-3.jpg",
+                            "duration": 10000
+                        },
+                        {
+                            "type": "image",
+                            "name": "专家计划-4前端组",
+                            "path": "/resources/library/00_专家计划_专家计划-4前端组.jpg",
+                            "duration": 10000
+                        },
+                        {
+                            "type": "image",
+                            "name": "专家计划-5java组",
+                            "path": "/resources/library/00_专家计划_专家计划-5java组.jpg",
+                            "duration": 10000
+                        },
+                        {
+                            "type": "image",
+                            "name": "专家计划-6架构组",
+                            "path": "/resources/library/00_专家计划_专家计划-6架构组.jpg",
+                            "duration": 10000
+                        },
+                        {
+                            "type": "image",
+                            "name": "专家计划-7数据组",
+                            "path": "/resources/library/00_专家计划_专家计划-7数据组.jpg",
+                            "duration": 10000
+                        },
+                        {
+                            "type": "video",
+                            "name": "岗位职级1-罗芬芳171121（最终版）",
+                            "path": "/resources/library/岗位职级1-罗芬芳171121（最终版）.mp4",
+                            "duration": 250000
+                        },
+                        {
+                            "type": "video",
+                            "name": "岗位职级2-罗芬芳171121（最终版）",
+                            "path": "/resources/library/岗位职级2-罗芬芳171121（最终版）.mp4",
+                            "duration": 250000
+                        },
+                        {
+                            "type": "video",
+                            "name": "岗位职级3-罗芬芳171122（最终版）",
+                            "path": "/resources/library/岗位职级3-罗芬芳171122（最终版）.mp4",
+                            "duration": 250000
+                        },
+                        {
+                            "type": "video",
+                            "name": "岗位职级1-罗芬芳171121（最终版）",
+                            "path": "/resources/library/岗位职级1-罗芬芳171121（最终版）.mp4",
+                            "duration": 250000
+                        },
+                        {
+                            "type": "video",
+                            "name": "岗位职级2-罗芬芳171121（最终版）",
+                            "path": "/resources/library/岗位职级2-罗芬芳171121（最终版）.mp4",
+                            "duration": 250000
+                        },
+                        {
+                            "type": "video",
+                            "name": "岗位职级3-罗芬芳171122（最终版）",
+                            "path": "/resources/library/岗位职级3-罗芬芳171122（最终版）.mp4",
+                            "duration": 250000
+                        },
+                        {
+                            "type": "video",
+                            "name": "岗位职级4-罗芬芳171122（最终版）",
+                            "path": "/resources/library/岗位职级4-罗芬芳171122（最终版）.mp4",
+                            "duration": 320000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "17ab9c6f-0455-4864-9b58-9353ac43b4f5",
+            "name": "手动黑屏",
+            "active": false,
+            "range": [
+                {
+                    "resources": []
+                }
+            ]
+        },
+        {
+            "id": "846c4b24-5644-42dc-8714-ef4d9edb32bf",
+            "name": "测试方案",
+            "active": false,
+            "range": [
+                {
+                    "resources": [
+                        {
+                            "type": "image",
+                            "name": "专家计划-2",
+                            "path": "/resources/library/00_专家计划_专家计划-2.jpg",
+                            "duration": 10000
+                        },
+                        {
+                            "type": "image",
+                            "name": "专家计划-3",
+                            "path": "/resources/library/00_专家计划_专家计划-3.jpg",
+                            "duration": 10000
+                        },
+                        {
+                            "type": "image",
+                            "name": "专家计划-2",
+                            "path": "/resources/library/00_专家计划_专家计划-2.jpg",
+                            "duration": 10000
+                        },
+                        {
+                            "type": "image",
+                            "name": "专家计划-3",
+                            "path": "/resources/library/00_专家计划_专家计划-3.jpg",
+                            "duration": "10000"
+                        },
+                        {
+                            "type": "image",
+                            "name": "专家计划-3",
+                            "path": "/resources/library/00_专家计划_专家计划-3.jpg",
+                            "duration": 10000
+                        },
+                        {
+                            "type": "image",
+                            "name": "专家计划-4前端组",
+                            "path": "/resources/library/00_专家计划_专家计划-4前端组.jpg",
+                            "duration": 10000
+                        },
+                        {
+                            "type": "image",
+                            "name": "基于SpringCloud的微服务架构-郑德涛2",
+                            "path": "/resources/library/基于SpringCloud的微服务架构-郑德涛2.png",
+                            "duration": 10000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

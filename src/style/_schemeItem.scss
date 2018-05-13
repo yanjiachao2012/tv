@@ -1,0 +1,72 @@
+.schemes-item{
+    position:relative;
+    margin:0 14px 35px;
+    height:169px;
+    
+    border:1px solid #e0e0e0;
+    @include text(center);
+    border-radius:6px;
+    background-color:#fff;
+    &:hover{
+      .edit-content{
+        opacity:1;
+      }
+    }
+    .floor-points{
+      padding:38px 10px;
+      .point{
+        @include display;
+        margin:0 4px;
+        width:42px;
+        height:42px;
+        line-height:42px;
+        font-size:18px;
+        @include text(center);
+        border-radius:50%;
+      }
+      .has-point{
+        color:#fff;
+        background-color:$mainColor;
+      }
+      .no-point{
+        color:#fff;
+        background-color:#FF896D;
+      }
+      .el-icon-more{
+        margin-left:10px;
+        font-size:16px;
+        color:$mainColor;
+
+      }
+    }
+    .schemes-name{
+      padding:12px 0;
+      border-top:1px solid #f5f5f5;
+      color:#333;
+      font-size:18px;
+    }
+    .edit-content{
+      @include absolute;
+      padding:30px 10px 10px;
+      border-radius:6px;
+      background-color:#fff;
+      box-shadow: 0 2px 25px 0 rgba(0,0,0,0.21);
+      opacity:0;
+      .icon-remove{
+        cursor: pointer;
+        @include bgIcon(icon-remove,45px,44px);
+      }
+      .el-button{
+        width:140px;
+        border-color:rgba(249,88,88,.3);
+        color:#333;
+        font-size:18px;
+        &:hover,&:active,&:focus{
+          background-color:#fff;
+        }
+      }
+      .remove-box{
+        margin-top:20px;
+      }
+    }
+  }

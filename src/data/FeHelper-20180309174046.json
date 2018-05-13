@@ -1,0 +1,161 @@
+/* http://10.201.78.23:8100/tv/getLibrary */
+{
+    "success": true,
+    "detail": [
+        {
+            "type": "image",
+            "path": "/resources/library/00_专家计划_专家计划-1.jpg",
+            "name": "00_专家计划_专家计划-1"
+        },
+        {
+            "type": "image",
+            "path": "/resources/library/00_专家计划_专家计划-2.jpg",
+            "name": "00_专家计划_专家计划-2"
+        },
+        {
+            "type": "image",
+            "path": "/resources/library/00_专家计划_专家计划-3.jpg",
+            "name": "00_专家计划_专家计划-3"
+        },
+        {
+            "type": "image",
+            "path": "/resources/library/00_专家计划_专家计划-4前端组.jpg",
+            "name": "00_专家计划_专家计划-4前端组"
+        },
+        {
+            "type": "image",
+            "path": "/resources/library/00_专家计划_专家计划-5java组.jpg",
+            "name": "00_专家计划_专家计划-5java组"
+        },
+        {
+            "type": "image",
+            "path": "/resources/library/00_专家计划_专家计划-6架构组.jpg",
+            "name": "00_专家计划_专家计划-6架构组"
+        },
+        {
+            "type": "image",
+            "path": "/resources/library/00_专家计划_专家计划-7数据组.jpg",
+            "name": "00_专家计划_专家计划-7数据组"
+        },
+        {
+            "type": "video",
+            "path": "/resources/library/8期TED.mp4",
+            "name": "8期TED"
+        },
+        {
+            "type": "image",
+            "name": "网页图片",
+            "path": "http://img.zcool.cn/community/031c2945858d912a801219c771db71c.jpg"
+        },
+        {
+            "type": "app",
+            "path": "/resources/library/thumb/index.html",
+            "name": "thumb"
+        },
+        {
+            "type": "app",
+            "path": "/resources/library/Thumbs.db/index.html",
+            "name": "Thumbs.db"
+        },
+        {
+            "type": "image",
+            "path": "/resources/library/基于SpringCloud的微服务架构-郑德涛1.png",
+            "name": "基于SpringCloud的微服务架构-郑德涛1"
+        },
+        {
+            "type": "image",
+            "path": "/resources/library/基于SpringCloud的微服务架构-郑德涛2.png",
+            "name": "基于SpringCloud的微服务架构-郑德涛2"
+        },
+        {
+            "type": "video",
+            "path": "/resources/library/岗位职级1-罗芬芳171121（最终版）.mp4",
+            "name": "岗位职级1-罗芬芳171121（最终版）"
+        },
+        {
+            "type": "video",
+            "path": "/resources/library/岗位职级2-罗芬芳171121（最终版）.mp4",
+            "name": "岗位职级2-罗芬芳171121（最终版）"
+        },
+        {
+            "type": "video",
+            "path": "/resources/library/岗位职级3-罗芬芳171122（最终版）.mp4",
+            "name": "岗位职级3-罗芬芳171122（最终版）"
+        },
+        {
+            "type": "video",
+            "path": "/resources/library/岗位职级4-罗芬芳171122（最终版）.mp4",
+            "name": "岗位职级4-罗芬芳171122（最终版）"
+        },
+        {
+            "type": "image",
+            "path": "/resources/library/工具箱-用图表说话-李剑君1.png",
+            "name": "工具箱-用图表说话-李剑君1"
+        },
+        {
+            "type": "image",
+            "path": "/resources/library/工具箱-用图表说话-李剑君2.png",
+            "name": "工具箱-用图表说话-李剑君2"
+        },
+        {
+            "type": "image",
+            "path": "/resources/library/工具箱-用图表说话-李剑君3.png",
+            "name": "工具箱-用图表说话-李剑君3"
+        },
+        {
+            "type": "image",
+            "path": "/resources/library/工具箱-用图表说话-李剑君4.png",
+            "name": "工具箱-用图表说话-李剑君4"
+        },
+        {
+            "type": "image",
+            "path": "/resources/library/工具箱-用图表说话-李剑君5.png",
+            "name": "工具箱-用图表说话-李剑君5"
+        },
+        {
+            "type": "image",
+            "path": "/resources/library/工具箱-用图表说话-李剑君6.png",
+            "name": "工具箱-用图表说话-李剑君6"
+        },
+        {
+            "type": "image",
+            "path": "/resources/library/政企TED-1.png",
+            "name": "政企TED-1"
+        },
+        {
+            "type": "image",
+            "path": "/resources/library/政企TED-2.png",
+            "name": "政企TED-2"
+        },
+        {
+            "type": "image",
+            "path": "/resources/library/政企TED-3.png",
+            "name": "政企TED-3"
+        },
+        {
+            "type": "image",
+            "path": "/resources/library/政企TED-4.png",
+            "name": "政企TED-4"
+        },
+        {
+            "type": "image",
+            "path": "/resources/library/政企TED-5.png",
+            "name": "政企TED-5"
+        },
+        {
+            "type": "image",
+            "path": "/resources/library/政企TED-6.png",
+            "name": "政企TED-6"
+        },
+        {
+            "type": "app",
+            "path": "http://10.201.78.23:8080/person/web/",
+            "name": "新人堂"
+        },
+        {
+            "type": "video",
+            "path": "/resources/library/比赛预告片.mp4",
+            "name": "比赛预告片"
+        }
+    ]
+}
